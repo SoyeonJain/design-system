@@ -1,0 +1,17 @@
+{
+  "name": "file-system-event-debouncer",
+  "version": "0.1.0",
+  "description": "Collapses rapid duplicate file change events from fs.watch into single notifications per path within a configurable window.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
